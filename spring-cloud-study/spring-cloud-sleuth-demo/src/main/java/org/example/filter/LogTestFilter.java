@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 
 @Component
 @Slf4j
-@Order(-98)
+//@Order(-98)
 public class LogTestFilter implements WebFilter {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, WebFilterChain chain) {
